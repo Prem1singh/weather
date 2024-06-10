@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    background: url('weth.jpg') center center no-repeat;
+    background-size: cover;
+}
+#vid{
+    width: 101vw;
+    height: 101vh;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    z-index: 1;
+}
+#vidsrc{
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.576);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    position: relative;
+    z-index: 3;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    width: 450px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.info{
+    text-align: left;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+
+}
